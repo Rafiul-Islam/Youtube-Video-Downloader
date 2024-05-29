@@ -1,4 +1,4 @@
-# Video Downloader and Theme Switcher
+# Youtube Video Downloader
 
 This web application, built with React and Node.js (Express), allows users to download videos and audio files in various formats using a YouTube video link. Additionally, users can switch between different color themes to personalize their experience.
 
