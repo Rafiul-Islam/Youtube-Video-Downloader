@@ -35,7 +35,7 @@ Make sure you have the following installed on your system:
 2. **Install dependencies for both frontend and backend:**
 
     ```sh
-    # In the root directory
+    # Navigate to the server directory
     yarn install
 
     # Navigate to the client directory
@@ -48,7 +48,7 @@ Make sure you have the following installed on your system:
 1. **Start the backend server:**
 
     ```sh
-    # In the root directory
+    # In the server directory
     node index.js
     ```
 
