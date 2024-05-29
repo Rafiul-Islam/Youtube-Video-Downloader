@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (request, response) => {
-  response.send("Good Luck!");
+  response.send("Hello World!");
 });
 
 app.post("/download", async (req, res) => {
