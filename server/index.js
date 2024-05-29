@@ -5,7 +5,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://youtube-video-downloader-application-api.vercel.app"],
+    origin: ["https://youtube-video-downloader-application.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true,
   })
