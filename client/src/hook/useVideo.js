@@ -37,7 +37,7 @@ const useVideo = () => {
     if (error) {
       toast({
         title: "Error",
-        description: "You entered invalid URL. Please try again.",
+        description: error,
         status: "error",
         duration: 10000,
         isClosable: true,
