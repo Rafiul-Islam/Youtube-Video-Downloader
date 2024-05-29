@@ -26,11 +26,10 @@ const DownloadCardList = ({ title, formats }) => {
         {formats.map(({ qualityLabel, quality, url, mimeType }, index) => (
           <Link key={index} href={url} title="Click to download.">
             <Card
-              borderLeft="6px solid green"
+              borderLeft="6px solid #1b5e20"
               borderLeftRadius="10px"
               shadow="lg"
               cursor="pointer"
-              background="green.500"
             >
               <CardBody>
                 <Text>

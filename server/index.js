@@ -3,7 +3,15 @@ const ytdl = require("ytdl-core");
 const cors = require("cors");
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "https://youtube-video-downloader-application-5aakn8mha.vercel.app",
+    ],
+    methods: ["POST", "GET"],
+    credentials: false,
+  })
+);
 app.use(express.json());
 
 app.get("/", (request, response) => {

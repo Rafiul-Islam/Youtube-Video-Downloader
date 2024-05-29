@@ -31,6 +31,7 @@ const Form = ({ setUrl }) => {
           autoFocus
           type="text"
           placeholder="Enter Youtube Video URL Here...."
+          variant="filled"
           {...register("url", { required: true })}
         />
         {errors.url && (
