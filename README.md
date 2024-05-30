@@ -29,7 +29,7 @@ Make sure you have the following installed on your system:
 
     ```sh
     git clone https://github.com/Rafiul-Islam/Youtube-Video-Downloader.git
-    cd your-repo-name
+    cd Youtube-Video-Downloader
     ```
 
 2. **Install dependencies for both frontend and backend:**
