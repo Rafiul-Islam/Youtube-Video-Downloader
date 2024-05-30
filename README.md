@@ -28,7 +28,7 @@ Make sure you have the following installed on your system:
 1. **Clone the repository:**
 
     ```sh
-    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/Rafiul-Islam/Youtube-Video-Downloader.git)
+    git clone `https://github.com/Rafiul-Islam/Youtube-Video-Downloader.git`
     cd your-repo-name
     ```
 
